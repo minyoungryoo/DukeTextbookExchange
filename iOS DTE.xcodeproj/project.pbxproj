@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		396887601C85384D0038B13D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968875F1C85384D0038B13D /* AppDelegate.swift */; };
+		396887621C85384D0038B13D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396887611C85384D0038B13D /* ViewController.swift */; };
+		396887651C85384D0038B13D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396887631C85384D0038B13D /* Main.storyboard */; };
+		396887671C85384D0038B13D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396887661C85384D0038B13D /* Assets.xcassets */; };
+		3968876A1C85384D0038B13D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396887681C85384D0038B13D /* LaunchScreen.storyboard */; };
+		396887751C85384D0038B13D /* iOS_DTETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396887741C85384D0038B13D /* iOS_DTETests.swift */; };
+		396887801C85384D0038B13D /* iOS_DTEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968877F1C85384D0038B13D /* iOS_DTEUITests.swift */; };
+		3968878E1C853A560038B13D /* Duke Textbook Exchange Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3968878D1C853A560038B13D /* Duke Textbook Exchange Logo.png */; };
+		396887901C853B530038B13D /* iOS DTE in Resources */ = {isa = PBXBuildFile; fileRef = 3968878F1C853B530038B13D /* iOS DTE */; };
+		398269E11C8542850052DBA3 /* Duke Textbook Exchange Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 398269E01C8542850052DBA3 /* Duke Textbook Exchange Logo.png */; };
+		398269E21C8542850052DBA3 /* Duke Textbook Exchange Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 398269E01C8542850052DBA3 /* Duke Textbook Exchange Logo.png */; };
+		398269E31C8542850052DBA3 /* Duke Textbook Exchange Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 398269E01C8542850052DBA3 /* Duke Textbook Exchange Logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		396887711C85384D0038B13D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396887541C85384D0038B13D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3968875B1C85384D0038B13D;
+			remoteInfo = "iOS DTE";
+		};
+		3968877C1C85384D0038B13D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396887541C85384D0038B13D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3968875B1C85384D0038B13D;
+			remoteInfo = "iOS DTE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3968875C1C85384D0038B13D /* iOS DTE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS DTE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3968875F1C85384D0038B13D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		396887611C85384D0038B13D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		396887641C85384D0038B13D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		396887661C85384D0038B13D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		396887691C85384D0038B13D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3968876B1C85384D0038B13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396887701C85384D0038B13D /* iOS DTETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS DTETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		396887741C85384D0038B13D /* iOS_DTETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DTETests.swift; sourceTree = "<group>"; };
+		396887761C85384D0038B13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3968877B1C85384D0038B13D /* iOS DTEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS DTEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3968877F1C85384D0038B13D /* iOS_DTEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DTEUITests.swift; sourceTree = "<group>"; };
+		396887811C85384D0038B13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3968878D1C853A560038B13D /* Duke Textbook Exchange Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Duke Textbook Exchange Logo.png"; path = "../../../Desktop/Duke Textbook Exchange Logo.png"; sourceTree = "<group>"; };
+		3968878F1C853B530038B13D /* iOS DTE */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "iOS DTE"; sourceTree = "<group>"; };
+		398269DF1C8540EC0052DBA3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		398269E01C8542850052DBA3 /* Duke Textbook Exchange Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Textbook Exchange Logo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		396887591C85384D0038B13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3968876D1C85384D0038B13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396887781C85384D0038B13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		396887531C85384D0038B13D = {
+			isa = PBXGroup;
+			children = (
+				3968878D1C853A560038B13D /* Duke Textbook Exchange Logo.png */,
+				3968878F1C853B530038B13D /* iOS DTE */,
+				3968875E1C85384D0038B13D /* iOS DTE */,
+				396887731C85384D0038B13D /* iOS DTETests */,
+				3968877E1C85384D0038B13D /* iOS DTEUITests */,
+				3968875D1C85384D0038B13D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3968875D1C85384D0038B13D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3968875C1C85384D0038B13D /* iOS DTE.app */,
+				396887701C85384D0038B13D /* iOS DTETests.xctest */,
+				3968877B1C85384D0038B13D /* iOS DTEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3968875E1C85384D0038B13D /* iOS DTE */ = {
+			isa = PBXGroup;
+			children = (
+				398269DF1C8540EC0052DBA3 /* AppDelegate.h */,
+				3968875F1C85384D0038B13D /* AppDelegate.swift */,
+				396887611C85384D0038B13D /* ViewController.swift */,
+				396887631C85384D0038B13D /* Main.storyboard */,
+				398269E01C8542850052DBA3 /* Duke Textbook Exchange Logo.png */,
+				396887661C85384D0038B13D /* Assets.xcassets */,
+				396887681C85384D0038B13D /* LaunchScreen.storyboard */,
+				3968876B1C85384D0038B13D /* Info.plist */,
+			);
+			path = "iOS DTE";
+			sourceTree = "<group>";
+		};
+		396887731C85384D0038B13D /* iOS DTETests */ = {
+			isa = PBXGroup;
+			children = (
+				396887741C85384D0038B13D /* iOS_DTETests.swift */,
+				396887761C85384D0038B13D /* Info.plist */,
+			);
+			path = "iOS DTETests";
+			sourceTree = "<group>";
+		};
+		3968877E1C85384D0038B13D /* iOS DTEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3968877F1C85384D0038B13D /* iOS_DTEUITests.swift */,
+				396887811C85384D0038B13D /* Info.plist */,
+			);
+			path = "iOS DTEUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3968875B1C85384D0038B13D /* iOS DTE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396887841C85384D0038B13D /* Build configuration list for PBXNativeTarget "iOS DTE" */;
+			buildPhases = (
+				396887581C85384D0038B13D /* Sources */,
+				396887591C85384D0038B13D /* Frameworks */,
+				3968875A1C85384D0038B13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS DTE";
+			productName = "iOS DTE";
+			productReference = 3968875C1C85384D0038B13D /* iOS DTE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3968876F1C85384D0038B13D /* iOS DTETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396887871C85384D0038B13D /* Build configuration list for PBXNativeTarget "iOS DTETests" */;
+			buildPhases = (
+				3968876C1C85384D0038B13D /* Sources */,
+				3968876D1C85384D0038B13D /* Frameworks */,
+				3968876E1C85384D0038B13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396887721C85384D0038B13D /* PBXTargetDependency */,
+			);
+			name = "iOS DTETests";
+			productName = "iOS DTETests";
+			productReference = 396887701C85384D0038B13D /* iOS DTETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3968877A1C85384D0038B13D /* iOS DTEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3968878A1C85384D0038B13D /* Build configuration list for PBXNativeTarget "iOS DTEUITests" */;
+			buildPhases = (
+				396887771C85384D0038B13D /* Sources */,
+				396887781C85384D0038B13D /* Frameworks */,
+				396887791C85384D0038B13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3968877D1C85384D0038B13D /* PBXTargetDependency */,
+			);
+			name = "iOS DTEUITests";
+			productName = "iOS DTEUITests";
+			productReference = 3968877B1C85384D0038B13D /* iOS DTEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		396887541C85384D0038B13D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Minyoung Ryoo";
+				TargetAttributes = {
+					3968875B1C85384D0038B13D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3968876F1C85384D0038B13D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3968875B1C85384D0038B13D;
+					};
+					3968877A1C85384D0038B13D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3968875B1C85384D0038B13D;
+					};
+				};
+			};
+			buildConfigurationList = 396887571C85384D0038B13D /* Build configuration list for PBXProject "iOS DTE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 396887531C85384D0038B13D;
+			productRefGroup = 3968875D1C85384D0038B13D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3968875B1C85384D0038B13D /* iOS DTE */,
+				3968876F1C85384D0038B13D /* iOS DTETests */,
+				3968877A1C85384D0038B13D /* iOS DTEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3968875A1C85384D0038B13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3968876A1C85384D0038B13D /* LaunchScreen.storyboard in Resources */,
+				396887671C85384D0038B13D /* Assets.xcassets in Resources */,
+				396887651C85384D0038B13D /* Main.storyboard in Resources */,
+				398269E11C8542850052DBA3 /* Duke Textbook Exchange Logo.png in Resources */,
+				3968878E1C853A560038B13D /* Duke Textbook Exchange Logo.png in Resources */,
+				396887901C853B530038B13D /* iOS DTE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3968876E1C85384D0038B13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398269E21C8542850052DBA3 /* Duke Textbook Exchange Logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396887791C85384D0038B13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398269E31C8542850052DBA3 /* Duke Textbook Exchange Logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		396887581C85384D0038B13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396887621C85384D0038B13D /* ViewController.swift in Sources */,
+				396887601C85384D0038B13D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3968876C1C85384D0038B13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396887751C85384D0038B13D /* iOS_DTETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396887771C85384D0038B13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396887801C85384D0038B13D /* iOS_DTEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		396887721C85384D0038B13D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3968875B1C85384D0038B13D /* iOS DTE */;
+			targetProxy = 396887711C85384D0038B13D /* PBXContainerItemProxy */;
+		};
+		3968877D1C85384D0038B13D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3968875B1C85384D0038B13D /* iOS DTE */;
+			targetProxy = 3968877C1C85384D0038B13D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		396887631C85384D0038B13D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396887641C85384D0038B13D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		396887681C85384D0038B13D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396887691C85384D0038B13D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		396887821C85384D0038B13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		396887831C85384D0038B13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		396887851C85384D0038B13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS DTE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mr232.iOS-DTE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		396887861C85384D0038B13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS DTE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mr232.iOS-DTE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		396887881C85384D0038B13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS DTETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mr232.iOS-DTETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS DTE.app/iOS DTE";
+			};
+			name = Debug;
+		};
+		396887891C85384D0038B13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS DTETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mr232.iOS-DTETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS DTE.app/iOS DTE";
+			};
+			name = Release;
+		};
+		3968878B1C85384D0038B13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS DTEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mr232.iOS-DTEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS DTE";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3968878C1C85384D0038B13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS DTEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mr232.iOS-DTEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS DTE";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		396887571C85384D0038B13D /* Build configuration list for PBXProject "iOS DTE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396887821C85384D0038B13D /* Debug */,
+				396887831C85384D0038B13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396887841C85384D0038B13D /* Build configuration list for PBXNativeTarget "iOS DTE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396887851C85384D0038B13D /* Debug */,
+				396887861C85384D0038B13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396887871C85384D0038B13D /* Build configuration list for PBXNativeTarget "iOS DTETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396887881C85384D0038B13D /* Debug */,
+				396887891C85384D0038B13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3968878A1C85384D0038B13D /* Build configuration list for PBXNativeTarget "iOS DTEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3968878B1C85384D0038B13D /* Debug */,
+				3968878C1C85384D0038B13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 396887541C85384D0038B13D /* Project object */;
+}
